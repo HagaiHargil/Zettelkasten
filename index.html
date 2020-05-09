@@ -193,6 +193,8 @@ Error message and password prompt
 
 <li>$:/themes/tiddlywiki/vanilla</li>
 
+<li>Architecture Decision Records (ADR)</li>
+
 <li>Biases are Unchangeable?</li>
 
 <li>Blue-White-Gold Dress</li>
@@ -211,6 +213,10 @@ Error message and password prompt
 
 <li>Introduction</li>
 
+<li>nbdev</li>
+
+<li>Pandas-Bokeh</li>
+
 <li>People Hate Shipping Fees</li>
 
 <li>Perfect User Experience</li>
@@ -218,6 +224,10 @@ Error message and password prompt
 <li>Pink and Gray Crocs</li>
 
 <li>Postel's Principle</li>
+
+<li>Rust on mobile</li>
+
+<li>Scalene</li>
 
 <li>Schedule - Run Code in Intervals (Python)</li>
 
@@ -228,6 +238,8 @@ Error message and password prompt
 <li>The Red Queen Effect</li>
 
 <li>Twitter's Ad Policy</li>
+
+<li>Web Wormhole</li>
 
 <li>WHO and China</li>
 
@@ -9499,7 +9511,7 @@ Error message and password prompt
 <div created="20200325121039330" modified="20200325131036065" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/More</pre>
 </div>
-<div list="[[Half Life of Content]] GettingStarted" title="$:/StoryList">
+<div list="[[Architecture Decision Records (ADR)]] [[Rust on mobile]] Scalene nbdev Pandas-Bokeh [[Web Wormhole]] GettingStarted" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200325121156874" modified="20200325121156874" title="$:/temp/advancedsearch">
@@ -9678,6 +9690,9 @@ Error message and password prompt
     }
 }</pre>
 </div>
+<div created="20200504175139269" modified="20200504175354692" tags="[[code architecture]] adr code" title="Architecture Decision Records (ADR)">
+<pre>An [[interesting blog post||https://understandlegacycode.com/blog/earn-maintainers-esteem-with-adrs/]] suggests using specifically-designed documents to document changes to a codebase. These are architectural changes that stemmed from some issue with the old code, so it's a good idea to document the reason for why a feature is like that.</pre>
+</div>
 <div created="20200328091147221" modified="20200328092035799" tags="psychology bias [[the dress]] arguments thoughts" title="Biases are Unchangeable?">
 <pre>Just as we couldn't decide on the color of the dress, and we couldn't even understand how other people are seeing it differently, our opinions on a variety of other topics can obviously seem to us crystal clear and a source of unquestionable truth.</pre>
 </div>
@@ -9726,6 +9741,14 @@ Does it also have to do with the way it's released to the public, i.e. in one fe
 <div created="20200325121639989" modified="20200325121748968" tags="thoughts" title="Introduction">
 <pre>I'm not sure I understand exactly what I'm doing most of the time.</pre>
 </div>
+<div created="20200503103532085" modified="20200503103626337" tags="nbdev jupyter python fast.ai" title="nbdev">
+<pre>[[nbdev|https://nbdev.fast.ai/index.html]] is a library by Fast.ai to make notebooks publishable as a PyPI project, as well as for documentation purposes.</pre>
+</div>
+<div created="20200503102409697" modified="20200503102557155" tags="pandas bokeh pandas-bokeh plotting python" title="Pandas-Bokeh">
+<pre>[[Pandas-Bokeh|https://github.com/PatrikHlobil/Pandas-Bokeh]] is a cool library that switches the [[plotting backend|https://github.com/PatrikHlobil/Pandas-Bokeh#pandas_backend]] of pandas into a Bokeh one.
+
+It's great for interactive visualizations and easy HTML output.</pre>
+</div>
 <div created="20200404095830088" modified="20200404100140775" tags="retail amazon economy irrational [[shipping fees]]" title="People Hate Shipping Fees">
 <pre>[[Apparently|https://www.eugenewei.com/blog/2018/5/21/invisible-asymptotes]] people hate to pay for shipping so much that it wins even if the total price is still lower than the one they'd pay in a different store with free shipping. Amazon understood it early one, which made them start Amazon Prime which detaches the shipping costs from the single purchase.</pre>
 </div>
@@ -9741,6 +9764,12 @@ Users are &quot;divinely discontent&quot;, as Jeff Bezos put it. This is why you
 <pre>Postel's Principle or law states that we should be liberal in what we accept, but conservative in what we allow inside.
 
 Generally I think it's a good idea, but the actual limitations on inputs are not clear, and there's also danger that malformed input could disrupt the system. Lastly, malformed inputs can become standard and any future version will have to support them even if we don't allow it to.</pre>
+</div>
+<div created="20200504165833032" modified="20200504165902427" tags="rust mobile ffi" title="Rust on mobile">
+<pre>Rust's mobile status looks promising, judging from [[this|https://www.reddit.com/r/rust/comments/gcym93/whats_the_state_of_rust_in_ios_and_android/]] reddit link.</pre>
+</div>
+<div created="20200503104026021" modified="20200503104106643" tags="scalene profiler python" title="Scalene">
+<pre>[[Scalene|https://github.com/emeryberger/scalene]] is a fast and accurate memory and CPU profiler for Python.</pre>
 </div>
 <div created="20200326204937096" modified="20200326205151361" tags="python schedule cron flics" title="Schedule - Run Code in Intervals (Python)">
 <pre>[[`schedule`|https://pypi.org/project/schedule/]] is a Python library for creating cron-like tasks in intervals. It can be used as a library, which is cool if you're writing a daemon.</pre>
@@ -9769,6 +9798,9 @@ https://fs.blog/2012/10/the-red-queen-effect/</pre>
 </div>
 <div created="20200402052200231" modified="20200402085236564" tags="stratechery twitter [[free speech]] advertising" title="Twitter's Ad Policy">
 <pre>Twitter has a unique advertising policy in which they filter many ads, especially politics-related, if they don't conform to some standard or adhere to experts' opinions. Ben Thompson isn't sure it's good, since the experts are many times wrong (or at least not sure what's right), as happened in the [[WHO and China||Who and China]] thing.</pre>
+</div>
+<div created="20200430112044848" modified="20200430112216307" tags="[[file sharing]] webrtc resource" title="Web Wormhole">
+<pre>WebRTC is a nice protocol which allows a whole bunch of stuff - e.g. sending files directly from one computer to another ([[like this impl|https://webwormhole.io/]]).</pre>
 </div>
 <div created="20200401202505923" modified="20200401202630902" tags="stratechery [[world health organization]] china" title="WHO and China">
 <pre>It seems like [[WHO is tightly connected to China|https://stratechery.com/2020/unmasking-twitter/]] for unknown-to-me reasons right now. This can't be too good.</pre>
