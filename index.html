@@ -229,6 +229,8 @@ Error message and password prompt
 
 <li>Postel's Principle</li>
 
+<li>Railway Oriented Programming</li>
+
 <li>Rust on mobile</li>
 
 <li>Scalene</li>
@@ -9515,7 +9517,7 @@ Error message and password prompt
 <div created="20200325121039330" modified="20200325131036065" title="$:/state/tab/sidebar--595412856">
 <pre>$:/core/ui/SideBar/More</pre>
 </div>
-<div list="[[Doordash Automatic Web Scraping]] [[Food Delivery Companies are Losing Money]] GettingStarted" title="$:/StoryList">
+<div list="[[Railway Oriented Programming]] [[Doordash Automatic Web Scraping]] [[Food Delivery Companies are Losing Money]] GettingStarted" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20200325121156874" modified="20200325121156874" title="$:/temp/advancedsearch">
@@ -9776,6 +9778,13 @@ Users are &quot;divinely discontent&quot;, as Jeff Bezos put it. This is why you
 <pre>Postel's Principle or law states that we should be liberal in what we accept, but conservative in what we allow inside.
 
 Generally I think it's a good idea, but the actual limitations on inputs are not clear, and there's also danger that malformed input could disrupt the system. Lastly, malformed inputs can become standard and any future version will have to support them even if we don't allow it to.</pre>
+</div>
+<div created="20200520185325890" modified="20200520185519952" tags="code [[code architecture]] rop" title="Railway Oriented Programming">
+<pre>Railway Oriented Programming is a way to handle success and failure states of sequential functions being executed. You're always either on the &quot;success&quot; track or the &quot;failure&quot; track, and each track is composed of functions which take the argument of the previous one, and pass on their result to the next. 
+
+You can create complex control flow relatively easily and with detailed error messages.
+
+Python implementation: https://github.com/rob-earwaker/rail/tree/master/docs</pre>
 </div>
 <div created="20200504165833032" modified="20200504165902427" tags="rust mobile ffi" title="Rust on mobile">
 <pre>Rust's mobile status looks promising, judging from [[this|https://www.reddit.com/r/rust/comments/gcym93/whats_the_state_of_rust_in_ios_and_android/]] reddit link.</pre>
